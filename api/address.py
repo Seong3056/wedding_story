@@ -19,7 +19,7 @@ params = {
 }
 
 data_list = requests.get(url, params=params, headers=headers).json()["documents"]
-print(data_list)
+# ///print(data_list)
 
 # url = data_list["place_url"]
 # print(url)
