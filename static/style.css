@@ -42,8 +42,16 @@ header{
         }
 
 
-
+.wd_info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+    .wd_info img {
+        width: 100px;        
+    }
 #location {
-    width: 95vw;
-    margin: 100px auto;
+    width: 20vw;
+    margin: 100px 0;
+    margin-left: 50px;
 }
